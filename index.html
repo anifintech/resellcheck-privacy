@@ -1,0 +1,223 @@
+<title>ResellCheck Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --cream: #FBF7ED;
+    --surface: #FFFFFF;
+    --ink: #141414;
+    --muted: #5B5B52;
+    --lime: #C8F135;
+    --line: #E4DECB;
+    --bg: var(--cream);
+    --card: var(--surface);
+    --text: var(--ink);
+    --sub: var(--muted);
+    --border: var(--line);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12130E;
+      --card: #1B1C15;
+      --text: #F3F0E4;
+      --sub: #A9A491;
+      --border: #2C2D22;
+      --lime: #C8F135;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12130E;
+    --card: #1B1C15;
+    --text: #F3F0E4;
+    --sub: #A9A491;
+    --border: #2C2D22;
+    --lime: #C8F135;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px 96px; }
+
+  header.hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 28px;
+  }
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--lime);
+    color: #141414;
+    border: 2px solid #141414;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    box-shadow: 3px 3px 0 #141414;
+  }
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 900;
+    font-size: clamp(2rem, 6vw, 3rem);
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+    text-wrap: balance;
+    margin: 22px 0 6px;
+  }
+  .eff {
+    color: var(--sub);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .rule { height: 4px; background: var(--lime); width: 64px; margin: 20px 0 0; border-radius: 2px; }
+
+  .intro {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--lime);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 28px 0 8px;
+    color: var(--text);
+  }
+  .intro strong { font-weight: 600; }
+
+  h2 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.01em;
+    margin: 40px 0 6px;
+  }
+  .num {
+    color: var(--sub);
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  p { margin: 10px 0; }
+  a { color: var(--text); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; text-decoration-thickness: 2px; }
+  ul { margin: 10px 0; padding-left: 0; list-style: none; }
+  li {
+    position: relative;
+    padding: 8px 0 8px 26px;
+    border-bottom: 1px solid var(--border);
+  }
+  li:last-child { border-bottom: none; }
+  li::before {
+    content: "";
+    position: absolute; left: 4px; top: 16px;
+    width: 8px; height: 8px;
+    background: var(--lime);
+    border: 1.5px solid var(--ink);
+    border-radius: 2px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) li::before { border-color: #0c0d08; }
+  }
+  li b { font-weight: 600; }
+  .perm { color: var(--sub); font-size: 0.95em; }
+
+  footer {
+    max-width: 720px; margin: 0 auto; padding: 24px;
+    color: var(--sub); font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-top: 14px;
+  }
+</style>
+
+<header class="hero">
+  <span class="badge">📱 RESELLCHECK</span>
+  <h1>Privacy Policy</h1>
+  <p class="eff">Effective 12 September 2026 · App package <code>com.resellcheck.app</code></p>
+  <div class="rule"></div>
+</header>
+
+<main class="wrap">
+  <div class="intro">
+    <strong>Short version:</strong> ResellCheck runs every hardware test on your device.
+    We do not collect, store on our servers, or sell your personal data. There are no
+    accounts, no ads, and no analytics trackers.
+  </div>
+
+  <h2><span class="num">01 · </span>What ResellCheck does</h2>
+  <p>
+    ResellCheck helps you inspect a second-hand Android phone — checking the display,
+    touch, speaker, microphone, sensors, camera, vibration, flashlight, network, battery
+    and charging — and produces a health report you can save as a PDF and share.
+  </p>
+
+  <h2><span class="num">02 · </span>Information the app uses</h2>
+  <p>All of the following is read and processed <b>only on your device</b> for the duration of a test. None of it is transmitted to us or to any third party:</p>
+  <ul>
+    <li><b>Camera</b> — live preview for the display, camera and cosmetic tests. <span class="perm">No photos are saved or uploaded.</span></li>
+    <li><b>Microphone</b> — measures input level during the mic test. <span class="perm">Audio is analysed in real time and never recorded, stored, or uploaded.</span></li>
+    <li><b>Motion &amp; environment sensors</b> — accelerometer, gyroscope, proximity, light and magnetometer readings, used only to confirm each sensor responds.</li>
+    <li><b>Device information</b> — model, chipset, RAM, storage, display, battery health, Android version and security status. <span class="perm">Shown in your on-device report and included in a PDF only when you choose to generate and share it.</span></li>
+    <li><b>Network state</b> — connection type and a connectivity check (a request to a Google reachability endpoint). <span class="perm">No personal data is sent in this check.</span></li>
+    <li><b>Vibration</b> — triggers the vibration motor to test it.</li>
+  </ul>
+
+  <h2><span class="num">03 · </span>Reports you generate</h2>
+  <p>
+    Health-report PDFs are written to the app's own storage on your device. They stay
+    there until you delete them or uninstall the app. If you share a report, it goes only
+    to the recipient you pick through your device's share sheet — never to us.
+  </p>
+
+  <h2><span class="num">04 · </span>Payments</h2>
+  <p>
+    The optional PDF-report unlock (₹99) is processed by <b>Google Play Billing</b>.
+    ResellCheck never sees or stores your card, UPI, or bank details — Google handles the
+    entire transaction. We only receive confirmation that a purchase was completed.
+  </p>
+
+  <h2><span class="num">05 · </span>What we do not do</h2>
+  <ul>
+    <li>No user accounts or sign-in.</li>
+    <li>No advertising or ad identifiers.</li>
+    <li>No analytics or behaviour tracking.</li>
+    <li>No selling or sharing of personal data with third parties.</li>
+  </ul>
+
+  <h2><span class="num">06 · </span>Children</h2>
+  <p>
+    ResellCheck is a utility for inspecting used phones and is not directed at children
+    under 13. We do not knowingly collect information from children.
+  </p>
+
+  <h2><span class="num">07 · </span>Changes to this policy</h2>
+  <p>
+    If the app's data practices change, this page will be updated and the effective date
+    above will change. Continued use after an update means you accept the revised policy.
+  </p>
+
+  <h2><span class="num">08 · </span>Contact</h2>
+  <div class="contact">
+    <p style="margin:0">
+      Questions about this policy or your data? Contact the developer at<br>
+      <a href="mailto:anishjai1234@gmail.com">anishjai1234@gmail.com</a>
+    </p>
+  </div>
+</main>
+
+<footer>
+  ResellCheck · com.resellcheck.app · This policy applies to the ResellCheck Android app distributed on Google Play.
+</footer>
