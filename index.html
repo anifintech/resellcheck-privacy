@@ -146,7 +146,7 @@
 <header class="hero">
   <span class="badge">📱 RESELLCHECK</span>
   <h1>Privacy Policy</h1>
-  <p class="eff">Effective 13 October 2026 · App package <code>com.resellcheck.app</code></p>
+  <p class="eff">Effective 14 October 2026 · App package <code>com.resellcheck.app</code></p>
   <div class="rule"></div>
 </header>
 
@@ -154,8 +154,8 @@
   <div class="intro">
     <strong>Short version:</strong> ResellCheck runs every hardware test on your device.
     We do not collect, store on our servers, or sell your personal data. There are no
-    accounts, no ads, and no analytics trackers. The only time the app contacts our server
-    is if you choose to activate a license key (see section 04).
+    accounts, no ads, and no analytics trackers. The app contacts our server only when you
+    activate a license key (section 04) or create a PDF report for online verification (section 03).
   </div>
 
   <h2><span class="num">01 · </span>What ResellCheck does</h2>
@@ -180,7 +180,17 @@
   <p>
     Health-report PDFs are written to the app's own storage on your device. They stay
     there until you delete them or uninstall the app. If you share a report, it goes only
-    to the recipient you pick through your device's share sheet — never to us.
+    to the recipient you pick through your device's share sheet.
+  </p>
+  <p>
+    <b>Online verification.</b> When you create a PDF report, the app saves a summary of it on our
+    server (hosted on Supabase) so a buyer can scan the report's QR code and confirm it is genuine.
+    The summary contains: the random report ID, phone model, RAM, storage, Android version, health
+    score and grade, each test's result, the estimated resale value, the app version and a one-way
+    hashed device identifier (used only so that no other phone can change your report). It does
+    <b>not</b> contain your name, phone number, IMEI, photos, recordings or location.
+    Anyone who has the report ID or QR code can view this summary at aneitools.pro/resellcheck.
+    We keep it for 12 months. To have a report deleted sooner, email us with the report ID.
   </p>
 
   <h2><span class="num">04 · </span>Payments</h2>
