@@ -146,7 +146,7 @@
 <header class="hero">
   <span class="badge">📱 RESELLCHECK</span>
   <h1>Privacy Policy</h1>
-  <p class="eff">Effective 12 September 2026 · App package <code>com.resellcheck.app</code></p>
+  <p class="eff">Effective 13 October 2026 · App package <code>com.resellcheck.app</code></p>
   <div class="rule"></div>
 </header>
 
@@ -154,7 +154,8 @@
   <div class="intro">
     <strong>Short version:</strong> ResellCheck runs every hardware test on your device.
     We do not collect, store on our servers, or sell your personal data. There are no
-    accounts, no ads, and no analytics trackers.
+    accounts, no ads, and no analytics trackers. The only time the app contacts our server
+    is if you choose to activate a license key (see section 04).
   </div>
 
   <h2><span class="num">01 · </span>What ResellCheck does</h2>
@@ -187,6 +188,16 @@
     The optional PDF-report unlock (₹99) is processed by <b>Google Play Billing</b>.
     ResellCheck never sees or stores your card, UPI, or bank details — Google handles the
     entire transaction. We only receive confirmation that a purchase was completed.
+  </p>
+  <p>
+    <b>License keys (optional).</b> You can instead unlock the report with a license key.
+    When you tap <i>Activate key</i>, the app sends the key and a <b>one-way hashed device
+    identifier</b> (a SHA-256 hash of the app-specific Android ID — the raw ID never leaves
+    your phone) to our server, hosted on Supabase. This is used only to check the key is valid
+    and to make sure each key works on one phone; re-entering it on the same phone restores
+    the unlock. We store the key, the hashed identifier and the activation time, and keep them
+    for as long as the license is valid. Your IP address may be logged briefly to block repeated
+    invalid attempts and is deleted within 24 hours. Nothing else about you or your phone is sent.
   </p>
 
   <h2><span class="num">05 · </span>What we do not do</h2>
